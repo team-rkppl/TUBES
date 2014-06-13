@@ -4,16 +4,14 @@
  * and open the template in the editor.
  */
 
-package com.tubes.rkppl;
+package com.tubes.face;
 
 /**
  *
  * @author danisofyan
  */
-public interface MulAndDivInterface {
+public interface PowInterface extends MulAndDivInterface{
     
-    public double mul(double n1,double n2 );
-    
-    public double div(double n1, double n2);
-    
+    public double pow (double n1, double n2);
+  
 }

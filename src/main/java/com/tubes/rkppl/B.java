@@ -6,6 +6,8 @@
 
 package com.tubes.rkppl;
 
+import com.tubes.face.MulAndDivInterface;
+
 /**
  *
  * @author danisofyan
