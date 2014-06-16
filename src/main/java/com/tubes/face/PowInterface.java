@@ -12,6 +12,12 @@ package com.tubes.face;
  */
 public interface PowInterface extends MulAndDivInterface{
     
+    /**
+     * 
+     * @param n1
+     * @param n2
+     * @return 
+     */
     public double pow (double n1, double n2);
   
 }

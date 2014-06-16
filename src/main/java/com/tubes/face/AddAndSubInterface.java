@@ -12,8 +12,20 @@ package com.tubes.face;
  */
 public interface AddAndSubInterface {
     
+        /**
+         * 
+         * @param n1
+         * @param n2
+         * @return 
+         */
     	public int add(int n1, int n2);
 	
+        /**
+         * 
+         * @param n1
+         * @param n2
+         * @return 
+         */
 	public int sub(int n1, int n2);
     
 }

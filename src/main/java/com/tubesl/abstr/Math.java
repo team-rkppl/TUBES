@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.tubes.rkppl.abstr;
+package com.tubesl.abstr;
+
 
 /**
  *
@@ -11,13 +12,23 @@ package com.tubes.rkppl.abstr;
  */
 public abstract class Math {
 
-    
+    /**
+     * 
+     * @param n1
+     * @param n2
+     * @return 
+     */
     public int mod(int n1, int n2) {
         return n1 % n2;
     }
 
+    /**
+     * 
+     * @param n
+     * @return 
+     */
     public double sqrt(double n) {
-        return 0;
+        return java.lang.Math.sqrt(n);
     }
 
 }

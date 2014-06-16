@@ -14,22 +14,41 @@ import com.tubes.face.MulAndDivInterface;
  */
 public class B implements MulAndDivInterface{
     
+    /**
+     * 
+     */
     public B(){
         
     }
     
+    /**
+     * 
+     * @return 
+     */
     public String toString(){
         return "B";
     }
 
+    /**
+     * 
+     * @param n1
+     * @param n2
+     * @return 
+     */
     @Override
     public double mul(double n1, double n2) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return n1 * n2;
     }
 
+    /**
+     * 
+     * @param n1
+     * @param n2
+     * @return 
+     */
     @Override
     public double div(double n1, double n2) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+        return n1 / n2;
+   }
     
 }

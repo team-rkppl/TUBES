@@ -1,12 +1,11 @@
-package com.tubes.testing;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 
-import com.tubes.rkppl.D;
+package com.tubes.testing;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -16,19 +15,14 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Hidayat
+ * @author Adhi
  */
-public class DTest {
+public class ATest {
     
     /**
      * 
      */
-    static D d;
-    
-    /**
-     * 
-     */
-    public DTest() {
+    public ATest() {
     }
     
     /**
@@ -36,7 +30,6 @@ public class DTest {
      */
     @BeforeClass
     public static void setUpClass() {
-        d = new D();
     }
     
     /**
@@ -58,14 +51,6 @@ public class DTest {
      */
     @After
     public void tearDown() {
-    }
-    
-    /**
-     * 
-     */
-    @Test
-    public void test1(){
-        d.toString();
     }
 
     // TODO add test methods here.
