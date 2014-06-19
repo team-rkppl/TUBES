@@ -63,7 +63,7 @@ public class ATest {
      @Test
      public void test1() {
          
-         assertSame("Harusnya", 7, a.add(5, 2));
+         assertSame("Harusnya", 9, a.add(5, 2));
      }
      
     /**
