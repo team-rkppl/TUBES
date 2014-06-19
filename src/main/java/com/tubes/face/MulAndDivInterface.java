@@ -13,18 +13,18 @@ package com.tubes.face;
 public interface MulAndDivInterface {
     
     /**
-     * 
-     * @param n1
-     * @param n2
-     * @return 
+     * fungsi untuk melakukan perkalian
+     * @param n1 double 
+     * @param n2 double
+     * @return double
      */
     public double mul(double n1,double n2 );
     
     /**
-     * 
-     * @param n1
-     * @param n2
-     * @return 
+     * fungsi untuk melakukan pembagian
+     * @param n1 double
+     * @param n2 double
+     * @return double
      */
     public double div(double n1, double n2);
     

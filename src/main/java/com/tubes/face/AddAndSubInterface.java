@@ -13,18 +13,18 @@ package com.tubes.face;
 public interface AddAndSubInterface {
     
         /**
-         * 
-         * @param n1
-         * @param n2
-         * @return 
+         * fungsi untuk melakukan penjumlahan
+         * @param n1 int
+         * @param n2 int
+         * @return int
          */
     	public int add(int n1, int n2);
 	
         /**
-         * 
-         * @param n1
-         * @param n2
-         * @return 
+         * fungsi untuk melakukan pengurangan
+         * @param n1 int
+         * @param n2 int
+         * @return int
          */
 	public int sub(int n1, int n2);
     

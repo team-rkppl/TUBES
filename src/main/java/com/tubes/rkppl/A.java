@@ -14,31 +14,38 @@ import com.tubes.face.AddAndSubInterface;
 public class A implements AddAndSubInterface {
 
     /**
-     * 
+     * konstruktor kelas a
      */
     public A() {
+        System.out.println("Konstruktor dikelas A");
     }
 
     /**
-     * 
-     * @return 
+     * fungsi untuk menampilkan toString dari kelas A
+     * @return string
      */
     @Override
     public String toString() {
-        return "A{" + '}';
+                return "toString dikelas A";
     }
 
     /**
-     * 
-     * @param n1
-     * @param n2
-     * @return 
+     * fungsi untuk melakukan penjumlahan
+     * @param n1 int
+     * @param n2 int
+     * @return int
      */
     @Override
     public int add(int n1, int n2) {
         return n1 + n2;
     }
 
+    /**
+     * fungsi untuk melakukan pengurangan
+     * @param n1 int
+     * @param n2 int
+     * @return int
+     */
     @Override
     public int sub(int n1, int n2) {
         return n1 - n2;

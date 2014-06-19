@@ -1,7 +1,6 @@
 /**
  * Class E
  */
-
 package com.tubes.rkppl;
 
 import java.util.List;
@@ -16,16 +15,17 @@ public class E {
      * Atribute class E
      */
     List dataList;
-    
+
     /**
      * Konstruktor milik class E
      */
     public E() {
-        
-    }    
+        System.out.println("Konstruktor dikelas E");
+    }
 
     /**
      * Get datalist
+     *
      * @return List
      */
     public List getDataList() {
@@ -34,19 +34,22 @@ public class E {
 
     /**
      * Set datalist
-     * @param dataList 
+     *
+     * @param dataList
      */
     public void setDataList(List dataList) {
         this.dataList = dataList;
     }
 
     /**
-     * toString 
+     * toString milik kelas E
+     *
      * @return String
      */
     @Override
     public String toString() {
-        return "E{" + "dataList=" + dataList + '}';
+        return "toString dikelas E";
+
     }
-    
+
 }

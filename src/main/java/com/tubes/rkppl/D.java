@@ -15,23 +15,25 @@ public class D implements PowInterface {
      * Konstruktor class D
      */
     public D() {
+        System.out.println("Konstruktor dikelas D");
     }
 
     /**
-     * toString
+     * toString milik kelas D
      *
      * @return String
      */
     @Override
     public String toString() {
-        return "D{" + '}';
+        return "toString dikelas D";
+
     }
 
     /**
-     * 
-     * @param n1
-     * @param n2
-     * @return 
+     * fungsi untuk melakukan pangkat
+     * @param n1 double
+     * @param n2 double
+     * @return double
      */
     @Override
     public double pow(double n1, double n2) {
@@ -39,10 +41,10 @@ public class D implements PowInterface {
     }
 
     /**
-     * 
-     * @param n1
-     * @param n2
-     * @return 
+     * fungsi untuk melakukan perkalian
+     * @param n1 double
+     * @param n2 double
+     * @return double
      */
     @Override
     public double mul(double n1, double n2) {
@@ -50,10 +52,10 @@ public class D implements PowInterface {
     }
 
     /**
-     * 
-     * @param n1
-     * @param n2
-     * @return 
+     * fungsi untuk melakukan pembagian
+     * @param n1 double
+     * @param n2 double
+     * @return double
      */
     @Override
     public double div(double n1, double n2) {

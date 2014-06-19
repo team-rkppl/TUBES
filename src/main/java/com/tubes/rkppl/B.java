@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package com.tubes.rkppl;
 
 import com.tubes.face.MulAndDivInterface;
@@ -12,28 +11,29 @@ import com.tubes.face.MulAndDivInterface;
  *
  * @author danisofyan
  */
-public class B implements MulAndDivInterface{
-    
+public class B implements MulAndDivInterface {
+
     /**
-     * 
+     * konstruktor milik kelas b
      */
-    public B(){
-        
-    }
-    
-    /**
-     * 
-     * @return 
-     */
-    public String toString(){
-        return "B";
+    public B() {
+        System.out.println("Konstruktor dikelas B");
     }
 
     /**
-     * 
-     * @param n1
-     * @param n2
-     * @return 
+     * fungsi untuk menampilkan toString dari kelas B
+     * @return String
+     */
+    public String toString() {
+        return "toString dikelas B";
+
+    }
+
+    /**
+     * fungsi untuk melakukan perkalian
+     * @param n1 double
+     * @param n2 double
+     * @return double
      */
     @Override
     public double mul(double n1, double n2) {
@@ -41,14 +41,14 @@ public class B implements MulAndDivInterface{
     }
 
     /**
-     * 
-     * @param n1
-     * @param n2
-     * @return 
+     * fungsi untuk melakukan pembagian
+     * @param n1 double
+     * @param n2 double
+     * @return double
      */
     @Override
     public double div(double n1, double n2) {
         return n1 / n2;
-   }
-    
+    }
+
 }

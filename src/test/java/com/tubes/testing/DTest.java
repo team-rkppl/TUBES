@@ -61,16 +61,10 @@ public class DTest {
     }
     
     /**
-     * 
+     * testcase untuk perkalian 2 * 5 = 10
      */
     @Test
     public void test1(){
-        d.toString();
+        assertNotNull("harusnya ", d.mul(2, 5));
     }
-
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
 }

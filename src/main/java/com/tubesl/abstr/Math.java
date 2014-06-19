@@ -13,22 +13,16 @@ package com.tubesl.abstr;
 public abstract class Math {
 
     /**
-     * 
-     * @param n1
-     * @param n2
-     * @return 
+     * fungsi untuk melakukan modular
+     * @param n1 int
+     * @param n2 int
      */
-    public int mod(int n1, int n2) {
-        return n1 % n2;
-    }
+    abstract public int mod(int n1, int n2);
 
     /**
-     * 
-     * @param n
-     * @return 
+     * fungsi untuk melakukan sqrt dari kelas Math
+     * @param n double
      */
-    public double sqrt(double n) {
-        return java.lang.Math.sqrt(n);
-    }
+    abstract public double sqrt(double n);
 
 }

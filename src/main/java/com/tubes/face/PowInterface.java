@@ -13,10 +13,10 @@ package com.tubes.face;
 public interface PowInterface extends MulAndDivInterface{
     
     /**
-     * 
-     * @param n1
-     * @param n2
-     * @return 
+     * fungsi untuk melakukan pow
+     * @param n1 double
+     * @param n2 double
+     * @return double
      */
     public double pow (double n1, double n2);
   
